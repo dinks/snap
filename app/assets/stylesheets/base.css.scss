@@ -1,0 +1,16 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+  background-color: #F5ECE5;
+  color: #664433;
+  padding-top: 70px;
+}
+
+a {
+  color: #FF8362;
+}
+
+.travel-path-plotter {
+  height: 320px;
+}

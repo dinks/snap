@@ -1,0 +1,62 @@
+
+development:
+  locations:
+    -
+      id:   1
+      name: "Berlin"
+      fact: "The Berlin TV Tower, with a height of 368 meters, is the tallest structure in Germany and the fourth tallest freestanding structure in Europe."
+    -
+      id:   2
+      name: "Cologne"
+      fact: "The Cologne Cathedral is a renowned monument of German Catholicism and Gothic architecture. It is Germany’s most visited landmark, attracting an average of 20,000 people a day."
+    -
+      id:   3
+      name: "Munich"
+      fact: "The Oktoberfest is known as the Largest Volksfest (People’s Fair) in the World. In 1999 there were six and a half million visitors to the 42 hectare Theresienwiese."
+    -
+      id:   4
+      name: "Frankfurt"
+      fact: "A unique feature of Frankfurt is its significant number of skyscrapers and high-rise buildings in the city center which form the Frankfurt skyline. Frankfurt is one of only a few cities in the European Union that have such a skyline. Because of the city's skyline, Germans sometimes refer to Frankfurt as 'Mainhattan', a portmanteau of the local Main River and Manhattan."
+    -
+      id:   5
+      name: "Stuttgart"
+      fact: "The automobile and motorcycle were purported to have been invented in Stuttgart (by Karl Benz and subsequently industrialised in 1887 by Gottlieb Daimler and Wilhelm Maybach at the Daimler Motoren Gesellschaft). As a result it is considered by many to be the starting point of the worldwide automotive industry and is sometimes referred to as 'The cradle of the automobile'."
+    -
+      id:   6
+      name: "Düsseldorf"
+      fact: "Düsseldorf is known for its strong Dijon-like mustard served in a traditional pot called 'Mostertpöttche', which was eternalised in a still life by Vincent van Gogh in 1884."
+    -
+      id:   7
+      name: "Bremen"
+      fact: "The largest wine cellar in the world is located in Bremen (below the city's main square), which was once said to hold over 1 million bottles."
+    -
+      id:   8
+      name: "Leipzig"
+      fact: "Leipzig is nicknamed 'Boomtown of eastern Germany' or 'Hypezig' for being celebrated by the media as a hip urban center for the creative scene."
+    -
+      id:   9
+      name: "Münster"
+      fact: "The bicycle, also named 'Leeze', is the most commonly used means of transport in Münster. A daily total of more than 100,000 people travel the roads by bike, and there are twice as many bicycles as residents, namely 500,000. "
+    -
+      id:   10
+      name: "Lübeck"
+      fact: "Lübeck is famous for its marzipan industry. According to local legend, marzipan was first made in Lübeck, possibly in response either to a military siege of the city or a famine year. The story, perhaps apocryphal, is that the town ran out of all food except stored almonds and sugar, which were used to make loaves of marzipan 'bread'."
+    -
+      id:   11
+      name: "Hamburg"
+      fact: "The Speicherstadt (lit. city of warehouses, meaning warehouse district) in Hamburg, Germany is the largest warehouse district in the world where the buildings stand on timber-pile foundations, oak logs, in this particular case. It is located in the port of Hamburg—within the HafenCity quarter—and was built from 1883 to 1927."
+    -
+      id:   12
+      name: "Jasmund National Park"
+      fact: "The Jasmund National Park is a nature reserve in the northeast of Rügen island in Mecklenburg-Vorpommern. It is famous for the largest chalkcliffs of Germany, the so-called Königsstuhl (German = 'king's chair'). These cliffs are up to 161 m high above the Baltic Sea."
+
+
+
+
+
+
+
+
+
+
+

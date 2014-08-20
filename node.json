@@ -1,0 +1,65 @@
+{
+  "build-essential": {},
+
+  "nginx": {
+    "version": "1.2.5",
+    "user": "deploy",
+    "init_style": "init",
+    "modules": [
+      "http_stub_status_module",
+      "http_ssl_module",
+      "http_gzip_static_module"
+    ],
+    "passenger": {
+      "version": "3.0.18",
+      "gem_binary": "/home/vagrant/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/"
+    },
+    "configure_flags": [
+      "--add-module=/home/vagrant/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/passenger-4.0.48/ext/nginx"
+    ],
+    "gzip_types": [
+      "text/plain",
+      "text/html",
+      "text/css",
+      "text/xml",
+      "text/javascript",
+      "application/json",
+      "application/x-javascript",
+      "application/xml",
+      "application/xml+rss"
+    ]
+  },
+
+  "rbenv": {
+    "user_installs": [{
+      "user": "vagrant",
+      "rubies": ["2.1.2"],
+      "global": "2.1.2",
+      "gems": {
+        "2.1.2": [
+          { "name": "bundler" },
+          { "name": "rake" },
+          { "name": "rails" }
+        ]
+      }
+    }]
+  },
+
+  "mysql": {
+    "server_root_password": ""
+  },
+
+  "run_list": [
+    "recipe[apt::default]",
+    "recipe[nodejs::default]",
+    "recipe[ruby_build::default]",
+    "recipe[rbenv::user]",
+    "recipe[rbenv::vagrant]",
+    "recipe[nginx::commons]",
+    "recipe[nginx::passenger]",
+    "recipe[nginx::source]",
+    "recipe[vim::default]",
+    "recipe[mysql::server]",
+    "recipe[mysql::client]"
+  ]
+}
